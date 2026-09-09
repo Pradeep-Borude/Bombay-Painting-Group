@@ -112,7 +112,7 @@ export default function Process() {
 
                   <div className="line flex items-center justify-center">
                     <span className="line-span">
-                      -----------
+                      --------
                     </span>
                   </div>
                 </div>
