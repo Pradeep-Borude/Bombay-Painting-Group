@@ -86,7 +86,7 @@ export default function Services() {
                   </p>
 
                   {index !== services.length - 1 && (
-                    <button className="arrow-float mt-[30px] flex h-[100px] w-[100px] items-center justify-center rounded-full border border-white/50 bg-white/10 text-[26px] backdrop-blur-sm">
+                    <button className="arrow-float mt-[30px] flex h-[80px] w-[80px] items-center justify-center rounded-full border border-white/50 bg-white/10 text-[26px] backdrop-blur-sm">
                       ↓
                     </button>
                   )}
