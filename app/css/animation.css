@@ -1,0 +1,29 @@
+
+/* infinite scrole */
+@keyframes clientScroll {
+  from {
+    transform: translateX(-50%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes clientScrollReverse {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.client-track {
+  animation: clientScroll 30s linear infinite;
+}
+
+.client-track-reverse {
+  animation: clientScrollReverse 30s linear infinite;
+}
