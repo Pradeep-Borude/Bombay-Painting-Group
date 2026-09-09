@@ -108,7 +108,7 @@ export default function Hero() {
 
           <div className="overflow-hidden">
             <h1
-              className={`py-[18px] text-center text-6xl font-normal leading-[0.82] tracking-[-4px] ${
+              className={`py-[18px] text-center text-[190px] font-normal leading-[0.82] tracking-[-4px] ${
                 loaded
                   ? "hero-title-visible hero-delay-3"
                   : "hero-title-hidden"
