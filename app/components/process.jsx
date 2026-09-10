@@ -95,8 +95,8 @@ export default function Process() {
               }}
             >
               <Reveal delay={index * 50}>
-                <div className="flex text-4xl font-medium">
-                  <p className="h-[15vh] w-[5vw]">
+                <div className="flex text-2xl font-medium">
+                  <p className="h-full w-[5vw]">
                     {item.number}
                   </p>
 
@@ -105,7 +105,7 @@ export default function Process() {
                       {item.title}
                     </h1>
 
-                    <p className="p-2 text-2xl font-thin">
+                    <p className="p-2 text-sm font-light leading-relaxed text-zinc-400 lg:text-lg">
                       {item.process}
                     </p>
                   </div>
