@@ -100,7 +100,7 @@ export default function Process() {
                     {item.number}
                   </p>
 
-                  <div className="flex h-[20vh] w-[15vw] flex-col gap-4">
+                  <div className="flex h-full w-[15vw] flex-col gap-4">
                     <h1>
                       {item.title}
                     </h1>
