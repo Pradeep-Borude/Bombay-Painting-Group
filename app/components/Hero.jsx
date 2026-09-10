@@ -46,7 +46,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="relative h-[1010px] w-full overflow-hidden"
+      className="relative h-[100vh] w-full overflow-hidden"
     >
       <div className="absolute inset-0">
         <Image
