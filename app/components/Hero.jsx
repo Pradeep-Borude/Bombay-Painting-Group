@@ -79,7 +79,7 @@ export default function Hero() {
       <div className="absolute bottom-0 left-0 z-[5] h-[60%] w-full bg-gradient-to-b from-transparent via-black/40 to-black" />
 
       <div className="absolute bottom-0 left-0 z-[10] w-full px-[22px] text-white">
-        <div className="absolute bottom-40 left-0 w-full">
+        <div className="absolute bottom-10 left-0 w-full">
           <div className="ml-24 overflow-hidden">
             <p
               className={`w-[23vw] text-[28px] leading-[40px] ${
